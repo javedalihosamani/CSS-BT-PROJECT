@@ -1,0 +1,106 @@
+/* MOBILE */
+@media(max-width:992px){
+    [class*="col"]{
+        width: 100%;
+    }
+    /* ICONS */
+    .icons{text-align: left;}
+    .icons>b{margin: auto 0px;}
+    /* NAVIGATION */
+    header>nav{text-align: center;}
+    header>nav>ul{float: none;}
+    header>nav>ul>li{display: block;}
+    /* BANNER CODE */
+    .desktop-banner, .tablet-banner{display: none;}
+    .mobile-banner{
+        display: block;
+        overflow: hidden;
+        position: relative;
+    }
+    .mobile-banner>video{
+        width: 100%;
+    }
+    .mobile-banner>div{
+        position: absolute;
+        top: 20%;
+        left: 4%;
+        color: #fff;
+        line-height: 1.5;
+    }
+    .mobile-banner>div>p, .mobile-banner>div>button {
+        font-size: 20px;
+    }
+    .mobile-banner>div>p>span, .mobile-banner>div>h1>span{
+        color: #f8bf0d;
+    }
+    .mobile-banner>div>h1 {font-size: 55px;}
+    .mobile-banner>div>button{
+        padding: 20px;
+        margin: 20px auto;
+        background-color: #dc3748;
+        color: #fff;
+        border: none;
+        border-radius: 50px;
+        transition: 1s;
+        cursor: pointer;
+    }
+}
+/* TABLET */
+@media(min-width:993px) and (max-width:1200px){
+    /* GRID */
+    .colTab1{ width: 8.33%;}
+    .colTab2{ width: 16.66%;}
+    .colTab3{ width: 25%;}
+    .colTab4{ width: 33.33%;}
+    .colTab5{ width: 41.66%;}
+    .colTab6{ width: 50%;}
+    .colTab7{ width: 58.33%;}
+    .colTab8{ width: 66.66%;}
+    .colTab9{ width: 75%;}
+    .colTab10{ width: 83.33%;}
+    .colTab11{ width: 91.66%;}
+    .colTab12{ width: 100%;}
+
+    [class*="colTab"]{
+        float: left;
+        padding: 10px;
+    }
+    .icons{text-align: left;}
+    /* NAVIGATION */
+    header>nav{text-align: center;}
+    header>nav>ul{float: none;}
+    /* BANNER CODE */
+    .desktop-banner, .mobile-banner{display: none;}
+    .tablet-banner{
+        display: block;
+        overflow: hidden;
+        position: relative;
+    }
+    .tablet-banner>video{
+        width: 100%;
+    }
+    .tablet-banner>div{
+        position: absolute;
+        top: 20%;
+        left: 4%;
+        color: #fff;
+        line-height: 1.5;
+    }
+    .tablet-banner>div>p, .tablet-banner>div>button {
+        font-size: 20px;
+    }
+    .tablet-banner>div>p>span, .tablet-banner>div>h1>span{
+        color: #f8bf0d;
+    }
+    .tablet-banner>div>h1 {font-size: 55px;}
+    .tablet-banner>div>button{
+        padding: 20px;
+        margin: 20px auto;
+        background-color: #dc3748;
+        color: #fff;
+        border: none;
+        border-radius: 50px;
+        transition: 1s;
+        cursor: pointer;
+    }
+}
